@@ -1,0 +1,16 @@
+
+package:
+    name: python-hdf4
+    version: 0.9
+
+source:
+    git_url: https://github.com/fhs/python-hdf4.git
+    git_tag: b7857de262209cf90f483ee68b26f03a44972c5b
+
+requirements:
+  build:
+    - python
+    - numpy
+  run:
+    - python
+    - numpy
